@@ -1,0 +1,5 @@
+start=eval(input("enter start range:"))
+end=eval(input("enter end range:"))
+for num in range(start,end+1):
+    if num>=0:
+        print(num)
